@@ -64,7 +64,7 @@ refresh interval of live values (2 ticks), autosave interval.
 ## Build
 
 ```
-./build.sh   # Gradle in Docker, no local JDK needed -> dist/MC-Survival-Scoreboard-<version>.jar (gitignored)
+./build.sh   # Gradle in Docker, no local JDK needed -> dist/Survival-Scoreboard-<version>.jar (gitignored)
 ```
 
 ## Limitations

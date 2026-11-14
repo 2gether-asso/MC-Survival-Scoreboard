@@ -14,6 +14,10 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:26.3.build.249-stable")
 }
 
+base {
+    archivesName.set("Survival-Scoreboard")
+}
+
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 }
