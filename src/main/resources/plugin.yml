@@ -1,0 +1,15 @@
+name: MCSurvivalScoreboard
+version: '${version}'
+main: fr._2gether_asso.survival_scoreboard.SurvivalScoreboardPlugin
+api-version: '26.1'
+description: Per-world-group scoreboards, like Multiverse-Inventories but for scoreboards
+softdepend: [Multiverse-Core, Multiverse-Inventories]
+commands:
+  mvsb:
+    description: Manage per-group scoreboards
+    usage: /mvsb <group> objectives|players ...
+    permission: mvsb.admin
+permissions:
+  mvsb.admin:
+    description: Manage per-group scoreboards
+    default: op

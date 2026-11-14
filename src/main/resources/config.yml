@@ -1,0 +1,19 @@
+# Groups of worlds. Scoreboards (objectives, scores, display slots) are per group.
+# Players in a world that belongs to no group keep the server's main scoreboard.
+
+# Import the groups defined by Multiverse-Inventories (plugins/Multiverse-Inventories/groups.yml)
+multiverse-inventories-groups: true
+
+# Extra groups, or groups when Multiverse-Inventories is not used (world names, as in /mv list).
+# If a world is in several groups, the first one wins (Multiverse-Inventories groups come first).
+groups: {}
+#  survival:
+#    - 2gether_survival
+#    - 2gether_survival_nether
+#    - 2gether_survival_the_end
+
+# How often live values (health, food, level, ...) are refreshed, in ticks
+update-interval-ticks: 2
+
+# How often changed scores are saved to disk (they are always saved on shutdown)
+autosave-seconds: 60
